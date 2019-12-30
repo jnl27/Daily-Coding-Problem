@@ -1,5 +1,6 @@
 /* Given an array, rotate the array to the right by k steps, where k is non-negative.
-    An alternative problem to problem 197 - k does not have to be less than the array length so more edge cases
+    An alternative solution to problem 197 - k does not have to be less than the array length so more edge cases
+    Also solution does not have to be in-place
  */
 public class Main {
     public void rotate(int[] nums, int k) {
