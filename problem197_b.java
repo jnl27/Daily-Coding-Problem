@@ -8,7 +8,7 @@ public class Main {
             return;
         }
         if (k>nums.length){
-            k -= nums.length;
+            k = k % nums.length;
         }
         int[] numsCopy = new int[nums.length];
         for (int i=0; i<nums.length; i++){
